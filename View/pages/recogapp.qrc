@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="images">
+    <file>loading6.gif</file>
+    <file>ai2.png</file>
+    <file>img2.png</file>
+    <file>face recog logo.png</file>
+    <file>img.png</file>
+  </qresource>
+</RCC>

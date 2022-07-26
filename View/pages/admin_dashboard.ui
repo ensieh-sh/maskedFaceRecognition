@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>619</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>admin</string>
+  </property>
+  <widget class="QFrame" name="mainbgftame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>80</y>
+     <width>500</width>
+     <height>400</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0.165, x2:1, y2:0.449, stop:0 rgba(201, 201, 201, 255), stop:1 rgba(1, 29, 63, 255));
+border-top-left-radius:50px;
+border-bottom-right-radius:50px;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QFrame" name="logoframe_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-40</y>
+      <width>231</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/images/face recog logo.png);
+background-color:none;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>130</y>
+      <width>960</width>
+      <height>650</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:none;
+border:16px solid  rgb(2, 108, 203);
+
+border-top-left-radius:160px;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="employeebutton">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>110</y>
+       <width>201</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#employeebutton{
+border:5px ;
+	background-color: rgb(2, 108, 203);
+color: rgb(255, 255, 255,210);
+border-radius:5px;
+}
+QPushButton#employeebutton:hover{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgb(52, 73, 98), stop:1 rgba(85, 81, 84, 226));
+}
+QPushButton#employeebutton:pressed{
+padding-left:5px;
+padding-top:5px;
+background-color:rgb(150,123,111,255);}</string>
+     </property>
+     <property name="text">
+      <string>Add New Employee</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="gethistorybutton">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>110</y>
+       <width>201</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#gethistorybutton{
+border:5px ;
+	background-color: rgb(2, 108, 203);
+color: rgb(255, 255, 255,210);
+border-radius:5px;
+}
+QPushButton#gethistorybutton:hover{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgb(52, 73, 98), stop:1 rgba(85, 81, 84, 226));
+}
+QPushButton#gethistorybutton:pressed{
+padding-left:5px;
+padding-top:5px;
+background-color:rgb(150,123,111,255);}</string>
+     </property>
+     <property name="text">
+      <string>Login/Logout History</string>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="maskfram">
+   <property name="geometry">
+    <rect>
+     <x>379</x>
+     <y>0</y>
+     <width>241</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/images/img.png);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="backbutton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#backbutton{
+border:5px ;
+	background-color: rgb(2, 108, 203);
+color: rgb(255, 255, 255,210);
+border-radius:5px;
+}
+QPushButton#backbutton:hover{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgb(52, 73, 98), stop:1 rgba(85, 81, 84, 226));
+}
+QPushButton#backbutton:pressed{
+padding-left:5px;
+padding-top:5px;
+background-color:rgb(150,123,111,255);}</string>
+   </property>
+   <property name="text">
+    <string>BACK</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <selectedon>back.png</selectedon>
+    </iconset>
+   </property>
+  </widget>
+  <widget class="QFrame" name="maskborderframe">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>0</y>
+     <width>250</width>
+     <height>250</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:5px solid  rgb(2, 108, 203);
+background-color: qlineargradient(spread:pad, x1:0.0397727, y1:0.949, x2:0.841, y2:0.159682, stop:0 rgba(1, 29, 63, 176), stop:1 rgba(2, 108, 203, 0));
+border-top-left-radius:50px;
+border-bottom-right-radius:50px;
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <zorder>maskborderframe</zorder>
+  <zorder>mainbgftame</zorder>
+  <zorder>maskfram</zorder>
+  <zorder>backbutton</zorder>
+ </widget>
+ <resources>
+  <include location="recogapp.qrc"/>
+ </resources>
+ <connections/>
+</ui>
